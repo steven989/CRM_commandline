@@ -67,6 +67,7 @@ class Runner
   end
 
 ####################################### method to view all contacts
+
   def view_all_contacts
     puts "--------------------------------"
     @rolodex.view_all_contacts
@@ -78,6 +79,7 @@ class Runner
   end
 
 ####################################### method to view a specific contact
+
   def view_a_contact
 
     puts "Enter the ID of the contact you'd like to view"
@@ -90,6 +92,7 @@ class Runner
 
 
 ####################################### method to view all contact with specific attribute value
+
   def view_all_by_attr_value
 
     puts "Which attribute would you like to filter by? Your choices are first name, last name, email or notes"
@@ -108,6 +111,7 @@ class Runner
   end
 
 ####################################### method to delete a specific contact by ID
+
   def delete_a_contact
 
     puts "Which contact would you like to delete?"
@@ -121,6 +125,7 @@ class Runner
   end
 
 ####################################### method to delete all contacts that fit a criteria
+
   def delete_by_attr_value
 
     puts "Which attribute would you like to delete by? Your choices are first name, last name, email or notes"
@@ -156,6 +161,7 @@ class Runner
 
 
 ####################################### method for the user interface
+
   def run
 
     exit = false
